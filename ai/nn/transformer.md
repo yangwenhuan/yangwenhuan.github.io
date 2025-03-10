@@ -1,1 +1,5 @@
-  transformer模型（变换器，这翻译可能不大贴切），顾名思义，把一个序列转成另一个序列，由注意力机制的奠基之作《Attention Is All You Need》提出，deepseek的MLA就是在transformer的MHA（Multi-Head Attention，多头注意力）基础上进行优化。
+  transformer模型（变换器，这翻译可能不大贴切），顾名思义，把一个序列转成另一个序列（例如中译英），由注意力机制的奠基之作《Attention Is All You Need》提出，deepseek的MLA就是在transformer的MHA（Multi-Head Attention，多头注意力）基础上进行优化。
+  #### 什么是注意力
+  注意力可以理解为一个仿生学概念，模仿人类的注意力，可以识别一个序列的重点，比如人类阅读文章时，注意力通常会集中在文章标题上。
+  #### 为什么需要注意力
+  在注意力机制出现之前，通常使用RNN（循环神经网络）及其变体来将一个序列生成另一个序列。
